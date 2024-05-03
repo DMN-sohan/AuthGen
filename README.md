@@ -38,7 +38,10 @@ CREATE TABLE client_credentials (
     UNIQUE (uid)
 );
 ```
-
+Papers to read
+```
+https://arxiv.org/pdf/1904.05343
+```
 In frontend : 
 ```
 npm i
