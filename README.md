@@ -5,7 +5,7 @@ conda activate Steg
 cd api/python
 pip install -r ai-server-requirements.txt
 ```
-Edit path in ai-server-make-activate.cmd and ai-server-validate-activate.cmd
+Edit path in ai-server-make-activate.cmd and ai-server-validate-activate.cmd (Sohan -> your username)
 
 
 Execute in conda env python 3.11 :
@@ -15,7 +15,7 @@ conda activate LOGIN
 cd api/python
 pip install -r login-server-requirements.txt
 ```
-Edit path in login-server-activate.cmd
+Edit path in login-server-activate.cmd (Sohan -> your username)
 
 
 Extract utils.rar into api/python folder (replace any files if prompted): 
@@ -23,9 +23,9 @@ Extract utils.rar into api/python folder (replace any files if prompted):
 https://drive.google.com/file/d/1XeH8IrYYcyD4Ks-jbC4H2Mg7ZggoPav5/view?usp=sharing
 ```
 
-In MYSQL Workbench
+In MYSQL Workbench (replace <mysql username> in ALTER command)
 ```
-ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root';
+ALTER USER '<mysql username>'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root';
 
 create database mini_project;
 
