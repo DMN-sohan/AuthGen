@@ -44,7 +44,7 @@ CREATE TABLE client_credentials (
 ```
 In frontend folder : 
 ```
-npm i
+npm i --force
 ```
 To run all : 
 Go to api/python and run all cmd files. Go to frontend and run all cmd files. All servers will start automatically.
