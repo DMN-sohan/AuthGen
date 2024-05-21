@@ -1,3 +1,9 @@
+### Installations
+
+1. [Anaconda](https://www.anaconda.com/products/distribution#download-section)
+2. [MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
+3. [MySQL Server](https://dev.mysql.com/downloads/mysql/)
+
 Execute in conda env python 3.7.16 : 
 ```
 conda create --name Steg python=3.7.16
