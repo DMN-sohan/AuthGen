@@ -611,7 +611,7 @@ export default (() => {
 				/>
 			</Box>
 		</Section>
-		<Section padding="80px 0 80px 0" background="#EDF2F6">
+		{/* <Section padding="80px 0 80px 0" background="#EDF2F6">
 			<Box
 				display="flex"
 				align-items="center"
@@ -844,7 +844,7 @@ export default (() => {
 					</Box>
 				</Box>
 			</Box>
-		</Section>
+		</Section> */}
 		<RawHtml>
 			<style place={"endOfHead"} rawKey={"6575b98c1d712a00232c66dc"}>
 				{":root {\n  box-sizing: border-box;\n}\n\n* {\n  box-sizing: inherit;\n}"}
